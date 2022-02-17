@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top,#65dfc9,#6cdbed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Glass{
+    height: 70vh;
+    width: 70%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3) );
+    border-radius: 10px;
+    z-index:1 ;
+    backdrop-filter: blur(2rem);
+}
+
+.Circle1, .Circle2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    background: linear-gradient(to right bottom,rgba(146, 107, 107, 0.7),rgba(255,255,255,0.3) );
+
+}
+
+.Circle1{
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+.Circle2{
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50%;
+}
+.Profile{
+    width: 30%;
+    height: 100%;
+    background-color:rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.img1 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 6rem;
+    right: 23rem;
+}
+
+.img2 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 14rem;
+    right: 23rem;
+}
+
+.img3 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 23rem;
+}
+
+.img4 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 6rem;
+    right: 12rem;
+}
+
+.img5 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 14rem;
+    right: 12rem;
+}
+
+.img6 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 12rem;
+}
+
+.img7 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 6rem;
+    right: 1.5rem;
+}
+
+.img8 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 14rem;
+    right: 1.5rem;
+}
+
+.img9 >img{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+}
+
+.img1 >p{
+    position: absolute;
+    top: 12rem;
+    right: 25.5rem;
+    color: white;
+}
+
+.img2 >p{
+    position: absolute;
+    top: 20rem;
+    right: 22.5rem;
+    color: white;
+}
+
+.img3 >p{
+    position: absolute;
+    top: 29rem;
+    right: 23.8rem;
+    color: white;
+}
+
+.img4 >p{
+    position: absolute;
+    top: 12rem;
+    right: 13rem;
+    color: white;
+}
+
+.img5 >p{
+    position: absolute;
+    top: 20rem;
+    right: 12.5rem;
+    color: white;
+}
+
+.img6 >p{
+    position: absolute;
+    top: 29rem;
+    right: 12rem;
+    color: white;
+}
+
+.img7 >p{
+    position: absolute;
+    top: 12rem;
+    right: 2.5rem;
+    color: white;
+}
+
+.img8 >p{
+    position: absolute;
+    top: 20rem;
+    right: 1rem;
+    color: white;
+}
+
+.img9 >p{
+    position: absolute;
+    top: 29rem;
+    right: 2rem;
+    color: white;
+}
+.h1{
+    color: black;
+    position: absolute;
+    top: 2rem;
+    right: 9rem;
+    font-weight: 2px;
+}
+
+.Avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-color: black;
+    margin: 5px;
+}
+
+.Avatar2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 8rem;
+    left: 5px;
+}
+
+.facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 5rem;
+    left: 0.3em;
+}
+
+.twitter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 5px;
+    bottom: 2rem;
+}
+.photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+}
+
+.p:hover{
+    background-color: greenyellow;
+    color: hotpink;
+    padding: 5px;
+}
+
+.img:hover{
+    background-color: greenyellow;
+    color: red;
+    padding: 5px;
+}
